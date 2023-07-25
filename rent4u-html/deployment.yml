@@ -15,7 +15,6 @@ spec:
       containers:
       - name: sample-webpage
         image: prashanth63/azure-cicd:63
-        imagePullPolicy : Never
         ports:
         - containerPort: 80
 
